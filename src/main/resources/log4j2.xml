@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="INFO" strict="true">
+    <Appenders>
+        <Appender type="Console" name="STDOUT">     
+            <Layout charset="UTF-8" type="PatternLayout" pattern="[%level] %d{yyyy-MM-dd HH:mm:ss} %c [%t] %msg%n"/>
+        </Appender>
+        <Appender type="File" name="FILE" fileName="log/app.log">     
+            <Layout charset="UTF-8" type="PatternLayout" pattern="[%-12level{WARN=Warning, DEBUG=Debug, ERROR=Error, TRACE=Trace, INFO=Information}] %d{yyyy-MM-dd HH:mm:ss} %c [%t] %msg%n"/>
+        </Appender>
+    </Appenders>
+    <loggers>
+        <Root level="DEBUG">
+            <AppenderRef ref="STDOUT"/>
+           <!-- <AppenderRef ref="FILE" /> -->
+        </Root>        
+    </loggers>
+</Configuration>
