@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="ProjectModuleManager">
-    <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/simple-scala-application-template.iml" filepath="$PROJECT_DIR$/.idea/modules/simple-scala-application-template.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/simple-scala-application-template-build.iml" filepath="$PROJECT_DIR$/.idea/modules/simple-scala-application-template-build.iml" />
-    </modules>
-  </component>
-</project>
