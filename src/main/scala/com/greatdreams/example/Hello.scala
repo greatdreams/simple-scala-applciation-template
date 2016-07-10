@@ -1,4 +1,5 @@
-package com.example
+package com.greatdreams.example
+
 import org.slf4j.LoggerFactory
 
 object Hello {

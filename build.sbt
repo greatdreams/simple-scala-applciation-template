@@ -1,8 +1,10 @@
+organization := "com.greatdreams.example"
+
 name := """simple-scala-application-template"""
 
 version := "1.0"
 
-scalaVersion := "2.11.7"
+scalaVersion := "2.11.8"
 
 val slf4jVersion = "1.7.21"
 val log4jVersion = "2.4.1"
