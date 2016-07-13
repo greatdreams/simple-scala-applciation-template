@@ -7,7 +7,7 @@ version := "1.0"
 scalaVersion := "2.11.8"
 
 val slf4jVersion = "1.7.21"
-val log4jVersion = "2.4.1"
+val log4jVersion = "2.6.2"
 // Change this to another test framework if you prefer
 libraryDependencies ++= Seq(
 
