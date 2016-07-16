@@ -12,12 +12,11 @@ val log4jVersion = "2.6.2"
 libraryDependencies ++= Seq(
 
   "org.slf4j" % "slf4j-api" % slf4jVersion,
-  "org.slf4j" % "log4j-over-slf4j" % slf4jVersion,
   "org.apache.logging.log4j"% "log4j-slf4j-impl" % log4jVersion,
   "org.apache.logging.log4j"% "log4j-api" % log4jVersion,
   "org.apache.logging.log4j" % "log4j-core" % log4jVersion,
 
-  "org.scalatest" %% "scalatest" % "2.2.4" % "test"
+  "org.scalatest" %% "scalatest" % "2.2.6" % "test"
 )
 
 // Uncomment to use Akka
