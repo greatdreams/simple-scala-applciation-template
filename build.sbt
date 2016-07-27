@@ -6,19 +6,14 @@ version := "1.0"
 
 scalaVersion := "2.11.8"
 
-val slf4jVersion = "1.7.21"
-val log4jVersion = "2.6.2"
+val logbackVersion = "1.1.7"
+val groovyVersion = "2.4.7"
 // Change this to another test framework if you prefer
 libraryDependencies ++= Seq(
-
-  "org.slf4j" % "slf4j-api" % slf4jVersion,
-  "org.apache.logging.log4j"% "log4j-slf4j-impl" % log4jVersion,
-  "org.apache.logging.log4j"% "log4j-api" % log4jVersion,
-  "org.apache.logging.log4j" % "log4j-core" % log4jVersion,
+  "ch.qos.logback" % "logback-core" % s"${logbackVersion}",
+  "ch.qos.logback" % "logback-classic" % s"${logbackVersion}",
+  "ch.qos.logback" % "logback-access" % s"${logbackVersion}",
+  "org.codehaus.groovy" % "groovy-all" % s"${groovyVersion}",
 
   "org.scalatest" %% "scalatest" % "2.2.6" % "test"
 )
-
-// Uncomment to use Akka
-//libraryDependencies += "com.typesafe.akka" %% "akka-actor" % "2.3.11"
-
