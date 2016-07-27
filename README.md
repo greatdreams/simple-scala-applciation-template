@@ -12,5 +12,5 @@ $ bin/activator  package
 	* activator [https://www.lightbend.com/community/core-tools/activator-and-sbt](https://www.lightbend.com/community/core-tools/activator-and-sbt)
 	* sbt [scala-sbt.org](scala-sbt.org)
 	* scala [http://scala-lang.org/](http://scala-lang.org/)
-    * scalatest[http://www.scalatest.org]([http://www.scalatest.org) a powerful scala test framework
-	
+    * scalatest [http://www.scalatest.org]([http://www.scalatest.org)  a powerful scala test framework
+	* logback [http://logback.qos.ch/](http://logback.qos.ch/) a logging framework
