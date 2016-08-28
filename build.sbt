@@ -15,5 +15,5 @@ libraryDependencies ++= Seq(
   "ch.qos.logback" % "logback-access" % s"${logbackVersion}",
   "org.codehaus.groovy" % "groovy-all" % s"${groovyVersion}",
 
-  "org.scalatest" %% "scalatest" % "2.2.6" % "test"
+  "org.scalatest" %% "scalatest" % "3.0.0" % "test"
 )
