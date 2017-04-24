@@ -4,10 +4,10 @@ name := """simple-scala-application-template"""
 
 version := "1.0"
 
-scalaVersion := "2.11.8"
+scalaVersion := "2.12.2"
 
-val logbackVersion = "1.1.7"
-val groovyVersion = "2.4.7"
+val logbackVersion = "1.2.3"
+val groovyVersion = "2.4.10"
 
 val myproject = (project in file(".")).disablePlugins(plugins.JUnitXmlReportPlugin)
 (testOptions in  Test) += Tests.Argument(TestFrameworks.ScalaTest, "-h", "target/test-reports")
