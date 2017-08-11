@@ -4,7 +4,7 @@ name := """simple-scala-application-template"""
 
 version := "1.0"
 
-scalaVersion := "2.12.2"
+scalaVersion := "2.12.3"
 
 val logbackVersion = "1.2.3"
 val groovyVersion = "2.4.10"
