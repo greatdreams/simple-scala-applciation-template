@@ -3,7 +3,7 @@ lazy val root = (project in file(".")).settings(
   organization := "com.greatdreams.example",
   name := "simple-scala-application-template",
   version := "1.0",
-  scalaVersion := "2.12.3"
+  scalaVersion := "2.12.4"
 ).disablePlugins(plugins.JUnitXmlReportPlugin)
 
 
